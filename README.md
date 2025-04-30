@@ -37,11 +37,11 @@ Run the script with optional arguments:
 
 ### Training Mode
 ```
-python train.py --model_id FacebookAI/xlm-roberta-large --skip_train False --skip_loading True --n_epoch 2
+python classifier.py --model_id "FacebookAI/xlm-roberta-large" --skip_train False --skip_loading True --n_epoch 2
 ```
 
 ### Inference Mode
 ```
-python train.py --model_id FacebookAI/xlm-roberta-large --skip_train True --skip_loading True --n_epoch 2
+python classifier.py --model_id "FacebookAI/xlm-roberta-large" --skip_train True --skip_loading True --n_epoch 2
 ```
 
